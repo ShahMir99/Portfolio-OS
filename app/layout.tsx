@@ -46,9 +46,7 @@ export default function RootLayout({
         inter.variable,
       )}
     >
-      <body cz-shortcut-listen="true" className="min-h-full flex flex-col">
-        {children}
-      </body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
